@@ -63,8 +63,8 @@ with tf.Session() as tf_session:
             pred, feed_dict={train_pl: train_dataset,
                              test_pl: test_dataset[i]})
 
-        print('Predicted class %d -- True class %d' %
-              (train_labels[knn_index], test_labels[i]))
+        print('%d: Predicted class %d -- True class %d' %
+              (i + 1, train_labels[knn_index], test_labels[i]))
 
         if train_labels[knn_index] != test_labels[i]:
             missed += 1
