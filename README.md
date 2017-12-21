@@ -110,5 +110,8 @@ Have a look and run sequence_utilities.py: `python sequence_utilities.py`
 ## Machine Learning with TensorFlow
 
 ### 1. kNN
+- Data source: [creditcardfraud](https://www.kaggle.com/dalpozz/creditcardfraud/data)
+- Have a look and run knn_experiment.py: `python knn_experiment.py`
+- View TensorBoard: `tensorboard --logdir logs/`
 
 ### 2. Linear Regression

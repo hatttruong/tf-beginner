@@ -102,3 +102,6 @@ ENV/
 
 # TensorFlow Logs
 /logs
+
+# data
+/data

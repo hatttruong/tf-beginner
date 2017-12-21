@@ -1,3 +1,6 @@
 tensorflow
 biopython
 tensorboard
+scikit-learn
+scipy
+pandas

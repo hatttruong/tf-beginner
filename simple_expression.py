@@ -6,12 +6,12 @@ b = tf.constant(13.0, name="b", dtype=tf.float32)
 
 y = tf.Variable(tf.add(tf.multiply(a, x), b))
 
-init = tf.global_variables_initializer()
+# init = tf.global_variables_initializer()
 
 with tf.Session() as session:
     # write log in order to use TensorBoard
     # merged = tf.summary.merge_all()
     writer = tf.summary.FileWriter("logs", session.graph)
 
-    session.run(init)
+    # session.run(init)
     print session.run(y)
